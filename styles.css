@@ -1,0 +1,254 @@
+html
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: #128c7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.icon-and-name{
+    padding-right: 30px;
+}
+
+.icon-and-name img{
+    height: 40px;
+    width: 160px;
+}
+
+.info-list{
+
+}
+
+.info-list ul{
+    display: flex;
+    list-style-type: none;
+    font-family: Helvetica;
+    color: white;
+}
+
+.info-list ul li {
+    font-size: 1.0em;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.language-box {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Helvetica;
+    justify-content: space-between;
+    width: 95px;
+    padding-left: 17px;
+}
+
+main{
+    background-color: #f0f4f9;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1{
+    height: 100%;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1-box{
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-1-box img{
+    height: 75px;
+    width: 170px;
+}
+.container-1 #name-contact{
+    font-family: Helvetica;
+    font-size: 1.5em;
+}
+
+.container-1 button{
+    width: 180px;
+    height: 49px;
+    background-color: #128c7e;
+    border-radius: 50px;
+    border: none;
+    outline-width: 0;
+}
+
+.container-1 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.19em;
+}
+
+.line-sep{
+    background-color: #f3f3f3;
+    width: 70%;
+    border: none;
+    height: 0.5px;
+}
+
+#dont-have-txt{
+    font-family: Helvetica;
+    color: #5E5E5E;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+#download-link{
+    font-family: Helvetica;
+    color: #39b3ed;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.one-part{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-part{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-part{
+    height: 10%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-part{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five-part{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.six-part{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.article-1{
+    height: 50vh;
+    background-color: #273443;     
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 70%;
+}
+
+.uls-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.uls-box ul li{
+    color: white;
+    list-style-type: none;
+    font-family: Helvetica;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+.uls-box ul li:hover{
+    text-decoration: underline 2px white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.uls-box ul{
+    width: 190px;
+    padding: 0;
+}
+
+.uls-box ul p{
+    font-family: Helvetica;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+.legal-footer{
+    height: 9vh;
+    background-color: #1c1e21;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#wpp-txt-footer p{
+    color: white;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+#privacity-terms{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-around;
+}
+
+#privacity-terms a{
+    color: white;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+#privacity-terms svg{
+    color: white;
+    transform: rotate(180deg);
+}
