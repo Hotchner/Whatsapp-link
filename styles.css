@@ -91,6 +91,12 @@ main{
     border-radius: 50px;
     border: none;
     outline-width: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.container-1 button:hover{
+    background-color: #11766a;
 }
 
 .container-1 button a{
@@ -118,6 +124,11 @@ main{
     color: #39b3ed;
     text-decoration: none;
     font-size: 1.2em;
+    transition: 0.3s;
+}
+
+#download-link:hover{
+    text-decoration: underline;
 }
 
 .one-part{
