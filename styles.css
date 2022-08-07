@@ -39,6 +39,7 @@ header{
     font-size: 1.0em;
     padding-left: 14px;
     padding-right: 14px;
+    cursor: pointer;
 }
 
 .language-box {
@@ -70,8 +71,8 @@ main{
 
 .container-1-box{
     text-align: center;
-    width: 80%;
-    height: 500px;
+    width: 85%;
+    height: 100%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -232,7 +233,7 @@ main{
 
 
 .legal-footer{
-    height: 9vh;
+    height: 20%;
     background-color: #1c1e21;
     display: flex;
     align-items: center;
